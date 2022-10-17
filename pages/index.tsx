@@ -34,7 +34,7 @@ const Home: NextPage<Data> = (props) => {
             {items ? (
               items.map((x: any) => (
                 <li key={x.fields.snsOrder} className='w-[110px]'>
-                  <a href={x.fields.snsLink} target='_blank' rel='noopener'>
+                  <a href={x.fields.snsLink} target='_blank' rel='noopener noreferrer'>
                     <img src={x.fields.snsIcon.fields.file.url} alt={x.fields.snsName} />
                   </a>
                 </li>
