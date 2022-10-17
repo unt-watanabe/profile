@@ -4,15 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "contentful-typescript-codegen": "contentful-typescript-codegen --output @types/generated/contentful.d.ts"
+    "export": "next build && next export"
   },
   "dependencies": {
     "contentful": "^9.2.5",
-    "contentful-management": "^10.18.0",
-    "contentful-typescript-codegen": "^3.2.3",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
