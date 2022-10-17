@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+@import './reset.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #7fb10f;
+  word-wrap: break-word;
+  color: #333;
+  font-family: 'VT323', monospace;
+  font-size: 1.6rem;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}

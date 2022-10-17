@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "ignorePatterns": ["*.config.js"],
+  "rules": {
+    "prettier/prettier": "error",
+    "@next/next/no-img-element": "off",
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
+  }
+}
