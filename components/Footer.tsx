@@ -7,7 +7,7 @@ export const Footer: FC = () => {
       <p className='leading-[0.7em]'>
         <small>&copy; {year} p_toro All Rights Reserved.</small>
       </p>
-      <ul className='mt-[12px] flex flex-wrap gap-x-[1rem] text-[2rem]'>
+      <ul className='mt-[15px] flex flex-wrap gap-x-[1rem] text-[2rem]'>
         <li>Next.js</li>
         <li>TypeScript</li>
         <li>Tailwind</li>
